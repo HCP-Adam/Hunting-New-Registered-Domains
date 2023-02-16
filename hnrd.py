@@ -1,5 +1,6 @@
 from __future__ import print_function
 
+import concurrent.futures
 import dns.resolver
 import whois
 import time
