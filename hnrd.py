@@ -1,6 +1,5 @@
 from __future__ import print_function
 
-import concurrent.futures
 import dns.resolver
 import whois
 import time
@@ -21,6 +20,8 @@ import json
 import Levenshtein
 import tldextract
 import base64
+import threading
+
 
 
 try:
